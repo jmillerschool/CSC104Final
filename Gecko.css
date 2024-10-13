@@ -1,0 +1,107 @@
+body
+{  
+    background-image: url('Backgrounds/1.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 115, 196);
+    text-align: center; 
+    margin-top: 30px;  
+    background-color: #f7d6c0;
+}
+
+.Logo
+{
+   width: 90%;
+   margin-top: 20px;
+}
+
+nav
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: -75px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color:rgb(219, 232, 216);     
+}
+ 
+a
+{
+   padding: 20px;  
+}
+
+.Into
+{
+    font-size: 40px;    
+    color: rgb(3, 0, 0);       
+    background-color:#96ad90;
+    margin-top: 100px;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    border: 5px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    text-align: justify;
+}
+
+button
+{
+    background-color: #f4b9b8;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 6%; 
+    transition-duration: 0.4s;
+    width: 100px;
+}
+
+
+#walkArea 
+{
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+#walkingImage 
+{
+    position: absolute;
+    width: 10% ;
+    transition: transform 0.5s ease;
+}
+
+.column /* this is to make the columns for the images */
+{
+    float: center;
+    width: 22%;
+    margin: .5%;  
+    
+}
+
+.row:after /* this is to clear the floats after the columns */
+{
+    content: "";
+    display: table;
+    clear: both;
+    
+
+}
+
+.image /* this is to make the images the same size */
+{
+    border: 7px solid rgb(8, 8, 8);    
+    border-radius: 175px; 
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);  
+    width: 20%;  
+}
+
+
+
+
